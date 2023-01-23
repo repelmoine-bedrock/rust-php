@@ -1,23 +1,12 @@
 [package]
-name = "rust-php"
+name = "shared"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[[bin]]
-name = "main"
-path = "src/main.rs"
-
 [lib]
 name = "foo"           # The name of the target.
 path = "src/lib.rs"    # The source file of the target.
 
 [dependencies]
-axum = "0.6.2"
-
-
-[workspace]
-members = [
-    "shared",
-]
-
+thiserror = "1.0.38"
