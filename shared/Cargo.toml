@@ -9,4 +9,4 @@ name = "foo"           # The name of the target.
 path = "src/lib.rs"    # The source file of the target.
 
 [dependencies]
-thiserror = "1.0.38"
+random = "0.12.0"
