@@ -14,7 +14,7 @@ path = "src/lib.rs"    # The source file of the target.
 
 [dependencies]
 axum = "0.6.1"
-futures-task = "0.3.5"
+libp2p = "0.45.0"
 
 
 [workspace]
